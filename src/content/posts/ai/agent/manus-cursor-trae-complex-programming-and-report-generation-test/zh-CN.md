@@ -1,10 +1,10 @@
 ---
 title: Manus、Cursor、Trae 编程与报告复杂任务实测
-published: 2025-04-14
+published: 2025-04-17
 tags: [Manus, Cursor, Trae]
-image: ''
+image: 'http://images.chenzhijie.me/blog/2025/04/magic_ruler_cover.png'
 category: 'ai-agent'
-draft: true
+draft: false
 lang: zh-CN
 ---
 
@@ -49,7 +49,7 @@ lang: zh-CN
 - **结论**：**未能完成任务**。
 
 PS: Manus提供进入到其虚拟机的入口，可以在虚拟机中查看任务处理的结果
-
+![](http://images.chenzhijie.me/blog/2025/04/magic_ruler_manus.png)
 
 #### **Cursor**
 - ✅ 魔尺的立体结构正常呈现，支持鼠标旋转；
@@ -57,7 +57,8 @@ PS: Manus提供进入到其虚拟机的入口，可以在虚拟机中查看任�
 - ⚠️ 魔尺块模型结构部分错误，连接面计算不严谨；
 - ⚠️ 单个块的折叠控制尚未实现，随机折叠操作较抽象😂；
 - **结论**：**完成度高，可视效果好，但仍有逻辑缺陷**。
-
+![](http://images.chenzhijie.me/blog/2025/04/magic_ruler_cursor_1.png)
+![](http://images.chenzhijie.me/blog/2025/04/magic_ruler_cursor_2.png)
 [在线demo](/attachments/ai/agent/manus-cursor-trae-complex-programming-and-report-generation-test/cursor/index.html)
 
 #### **Trae**
